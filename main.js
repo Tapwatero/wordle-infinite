@@ -1268,8 +1268,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
           }, {
               key: "showHelpModal",
               value: function() {
-                  var e = this.$game.querySelector("game-modal");
-                  e.appendChild(document.createElement("game-help")), e.setAttribute("open", "")
+                  return;
               }
           }, {
               key: "connectedCallback",
