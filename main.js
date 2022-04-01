@@ -1129,7 +1129,7 @@ this.wordle = this.wordle || {}, this.wordle.bundle = function(e) {
               var e;
               s(this, t), o(m(e = a.call(this)), "tileIndex", 0), o(m(e), "rowIndex", 0), o(m(e), "solution", void 0), o(m(e), "boardState", void 0), o(m(e), "evaluations", void 0), o(m(e), "canInput", !0), o(m(e), "gameStatus", ls), o(m(e), "letterEvaluations", {}), o(m(e), "$board", void 0), o(m(e), "$keyboard", void 0), o(m(e), "$game", void 0), o(m(e), "today", void 0), o(m(e), "lastPlayedTs", void 0), o(m(e), "lastCompletedTs", void 0), o(m(e), "hardMode", void 0), o(m(e), "dayOffset", void 0), e.attachShadow({
                   mode: "open"
-              }), e.today = new randomDate(new Date("2021/06/19"), new Date()), e.refreshTimer = as();
+              }), e.today = new randomDate(new Date("2021/06/19"), new Date("2027/10/16")), e.refreshTimer = as();
               var n = za();
               e.lastPlayedTs = n.lastPlayedTs, e.lastCompletedTs = n.lastCompletedTs;
               var r = new Date("02/10/2022 19:00:00 EST");
